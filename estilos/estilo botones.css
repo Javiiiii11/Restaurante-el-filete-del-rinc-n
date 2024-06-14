@@ -1,0 +1,265 @@
+
+/*boton cursos*/
+.botoncursos {
+    height: 6%;
+    padding: 0 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #161616;
+    z-index: 1;
+    background: #e8e8e8;
+    position: absolute;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(255, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgb(146, 114, 54);
+    transition: all 250ms;
+    overflow: hidden;
+    top: 80%;
+    left: 20%;
+    cursor: pointer;
+   }
+.botoncursos::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: rgb(255, 166, 0);
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+.botoncursos:hover {
+    color: #e8e8e8;
+   }
+.botoncursos:hover::before {
+    width: 100%;
+   }
+/*boton platos*/
+.botonplatos {
+    height: 6%;
+    padding: 0 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #161616;
+    z-index: 1;
+    background: #e8e8e8;
+    position: absolute;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(255, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgb(146, 114, 54);
+    transition: all 250ms;
+    overflow: hidden;
+    top: 90%;
+    left: 80%;
+    cursor: pointer;
+   }
+.botonplatos::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: rgb(255, 166, 0);
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+.botonplatos:hover {
+    color: #e8e8e8;
+   }
+.botonplatos:hover::before {
+    width: 100%;
+   }
+/*boton menus*/
+.botonmenus {
+    height: 6%;
+    padding: 0 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #161616;
+    z-index: 1;
+    background: #e8e8e8;
+    position: absolute;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(255, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgb(146, 114, 54);
+    transition: all 250ms;
+    overflow: hidden;
+    top: 72%;
+    left: 80%;
+    cursor: pointer;
+   }
+.botonmenus::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: rgb(255, 166, 0);
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+.botonmenus:hover {
+    color: #e8e8e8;
+   }
+.botonmenus:hover::before {
+    width: 100%;
+   }
+   /*boton valoraciones*/
+.botonvaloraciones {
+    height: 6%;
+    padding: 20px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #161616;
+    z-index: 1;
+    background: #e8e8e8;
+    position: absolute;
+    font-weight: 1000;
+    font-size: 17px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(255, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgb(146, 114, 54);
+    transition: all 250ms;
+    overflow: hidden;
+    top: 85%;
+    cursor: pointer;
+  }
+.botonvaloraciones::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: rgb(255, 166, 0);
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+.botonvaloraciones:hover {
+    color: #e8e8e8;
+   }
+.botonvaloraciones:hover::before {
+    width: 100%;
+   }
+   /*******************************************************************/
+   /*boton general*/
+.botonReserva{
+    width: 100%;
+    height: 45px;
+    margin-top: 30px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+  }
+.botonReserva {
+    height: 6%;
+    padding: 20px 20px;
+    border: unset;
+    border-radius: 15px;
+    color: #161616;
+    z-index: 1;
+    background: #e8e8e8;
+    position: absolute;
+    font-weight: 1000;
+    font-size: 17px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(255, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgb(146, 114, 54);
+    transition: all 250ms;
+    overflow: hidden;
+  }
+.botonReserva::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: rgb(255, 166, 0);
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+.botonReserva:hover {
+    color: #e8e8e8;
+   }
+.botonReserva:hover::before {
+    width: 100%;
+   }
+
+
+
+
+      /*******************************************************************/
+   /*boton general*/
+
+.boton {
+    height: 6%;
+    padding: 20px 20px;
+    border: unset;
+    border-radius: 15px;
+    color: #161616;
+    z-index: 1;
+    background: #e8e8e8;
+    position: absolute;
+    font-weight: 1000;
+    font-size: 17px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(255, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgb(146, 114, 54);
+    transition: all 250ms;
+    overflow: hidden;
+  }
+.boton::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: rgb(255, 166, 0);
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms
+   }
+.boton:hover {
+    color: #e8e8e8;
+   }
+.boton:hover::before {
+    width: 100%;
+   }
+
+   

@@ -1,0 +1,153 @@
+
+html {
+    box-sizing: border-box;
+    
+}
+
+*, div, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Protest Guerrilla', sans-serif;    
+    color: white;
+    letter-spacing: 1px;
+}
+body {
+    background: #ffffff;
+    color: #252525;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Work Sans;
+    background-image: url(../imagenes/fondo/fondo\ vacio\ sexto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+.contenedorPrincipal{
+    display: flex;
+    width: 1000px;
+    padding: 100px;
+    color: white;
+    justify-content: space-between;
+}
+.izquierda,.derecha{
+    display: flex;
+}
+.izquierda{
+     padding: 20px;
+    flex:1;
+}
+.derecha{
+    padding: 20px;
+    flex:1;
+}
+.ContenedorColumas2 {
+    width: 100%;
+    
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+img{
+    height: 400px;
+}
+.derecha img{
+    margin-left: 200px;
+}
+.izquierda img{
+    margin-right: 200px;
+}
+
+.Columnas {
+    position: relative;
+    display: flex;
+    width: 100%;
+
+    
+}
+
+
+.contenedorListas {
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+}
+
+
+
+.Titulo{
+    text-align: center;
+}
+
+
+
+h2 {
+    font-weight: 400;
+    line-height: 1.5em;
+    font-size: 48px;
+}
+
+
+
+.Individual h2 {
+    margin-bottom: 12px;
+}
+
+
+
+
+ul {
+    margin: 0 0 16px 24px;
+}
+.Menu {
+    font-size: 0;
+    list-style: none;
+    margin-top: 32px;
+    width: 400px;
+}
+
+.Menu li {
+    font-size: 16px;
+    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px dotted #999999;
+    
+}
+.derecha .ContenedorColumas2{
+    transform: translateX(-200px);
+}
+
+h4 {
+    color: #252525;
+    font-weight: 400;
+    line-height: 1.5em;
+    font-family: Fauna One, serif;
+}
+
+.Menu li h4 {
+    font-size: 16px;
+    padding-right: 80px;
+    position: relative;
+    margin-bottom: 8px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.TextoMenu {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.precio {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+img{
+    border-radius: 30px;
+    
+}

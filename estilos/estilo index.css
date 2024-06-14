@@ -1,0 +1,555 @@
+html{
+    font-family: 'Protest Guerrilla', sans-serif;    
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+/*Parte 1*/
+.Parte1{
+    left: 0;
+    top: 20%;
+    transform: translateY(0px);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+.fotoParte1{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.logoParte1{
+    position: absolute;
+    width: 230px;
+    height: auto;
+    top: 100px;
+    left: 77%;
+}
+.textoParte1{
+    position: absolute;
+    top: 35%;
+    color: white;
+    left: 55%;
+    font-size:90px;
+    font-family: 'Protest Guerrilla', sans-serif;    
+    text-shadow: 0 0 15px  rgb(255, 166, 0);
+}
+.texto2Parte1{
+    position: absolute;
+    top: 48%;
+    color: white;
+    left: 55%;
+    font-size:90px;
+    font-family: 'Protest Guerrilla', sans-serif;    
+    text-shadow: 0 0 15px  rgb(255, 166, 0);
+}
+#tituloNaranja{
+    color: rgb(255, 166, 0);
+    text-shadow: 0 0 15px  rgb(223, 183, 111);
+}
+#naranja{
+    color: rgb(255, 166, 0);
+    text-shadow: 0 0 15px  rgb(146, 114, 54);
+}
+/*Parte 2*/
+.Parte2{
+    left: 0;
+    top: 20%;
+    transform: translateY(0px);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+.fotoParte2{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+
+.textoParte2{
+    position: absolute;
+    top: 25%;
+    transform: translateX(-100%);
+    color: white;
+    left: 60%;
+    font-size:90px;
+    font-family: 'Protest Guerrilla', sans-serif;    
+    text-shadow: 0 0 20px  rgb(0, 0, 0);
+}
+/*Parte 3*/
+.Parte3{
+    left: 0;
+    top: 20%;
+    transform: translateY(0px);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+.fotoParte3{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.textoParte3{
+    position: absolute;
+    top: 18%;
+    color: white;
+    left: 51%;
+    font-size:90px;
+    font-family: 'Protest Guerrilla', sans-serif;    
+    text-shadow: 0 0 15px  rgb(0, 0, 0);
+}
+
+/*Parte 4*/
+.Parte4{
+    left: 0;
+    top: 20%;
+    transform: translateY(0px);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+.fotoParte4{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.textoParte4{
+    position: absolute;
+    top: 2%;
+    transform: translateX(-100%);
+    color: white;
+    left: 40%;
+    font-size:55px;
+    font-family: 'Protest Guerrilla', sans-serif;    
+    text-shadow: 0 0 20px  rgb(0, 0, 0);
+}
+.plato1carne{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    max-width: 310px;
+    text-align: center;
+    font-family: 'Protest Guerrilla', sans-serif;   
+    color: white; 
+    text-shadow: 0 0 15px  rgb(146, 114, 54);
+    letter-spacing: 2px;
+}
+.plato2carne{
+    position: absolute;
+    top: 21%;
+    left: 37%;
+    max-width: 340px;
+    text-align: center;
+    font-family: 'Protest Guerrilla', sans-serif;    
+    color: white;
+    text-shadow: 0 0 15px  rgb(146, 114, 54);
+    letter-spacing: 2px;
+}
+.plato3carne{
+    position: absolute;
+    top: 20%;
+    left: 68%;  
+    max-width: 270px;
+    text-align: center;
+    font-family: 'Protest Guerrilla', sans-serif;    
+    color: white;
+    text-shadow: 0 0 15px  rgb(146, 114, 54);
+    letter-spacing: 2px;
+
+}
+/*Parte 5*/
+.Parte5{
+    left: 0;
+    top: 20%;
+    transform: translateY(0px);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+.fotoParte5{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.textoParte5{
+    position: absolute;
+    top: 2%;
+    transform: translateX(-100%);
+    color: white;
+    left: 40%;
+    font-size:55px;
+    font-family: 'Protest Guerrilla', sans-serif;    
+    text-shadow: 0 0 20px  rgb(0, 0, 0);
+}
+.plato1verdura{
+    position: absolute;
+    top: 27%;
+    left: 10%;
+    max-width: 310px;
+    text-align: center;
+    font-family: 'Protest Guerrilla', sans-serif;   
+    color: white; 
+    text-shadow: 0 0 15px  rgb(146, 114, 54);
+    letter-spacing: 2px;
+}
+.plato2verdura{
+    position: absolute;
+    top: 28%;
+    left: 37%;
+    max-width: 346px;
+    text-align: center;
+    font-family: 'Protest Guerrilla', sans-serif;    
+    color: white;
+    text-shadow: 0 0 15px  rgb(146, 114, 54);
+    letter-spacing: 2px;
+}
+.plato3verdura{
+    position: absolute;
+    top: 27%;
+    left: 68%;  
+    max-width: 320px;
+    text-align: center;
+    font-family: 'Protest Guerrilla', sans-serif;    
+    color: white;
+    text-shadow: 0 0 15px  rgb(146, 114, 54);
+    letter-spacing: 2px;
+
+}
+/*Parte 6*/
+.Parte6{
+    left: 0;
+    top: 20%;
+    transform: translateY(0px);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+.fotoParte6{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.textoParte6{
+    position: absolute;
+    top: 2%;
+    transform: translateX(-100%);
+    color: white;
+    left: 40%;
+    font-size:55px;
+    font-family: 'Protest Guerrilla', sans-serif;    
+    text-shadow: 0 0 20px  rgb(0, 0, 0);
+}
+.plato1infantil{
+    position: absolute;
+    top: 27%;
+    left: 10%;
+    max-width: 310px;
+    text-align: center;
+    font-family: 'Protest Guerrilla', sans-serif;   
+    color: white; 
+    text-shadow: 0 0 15px  rgb(146, 114, 54);
+    letter-spacing: 2px;
+}
+.plato2infantil{
+    position: absolute;
+    top: 28%;
+    left: 37%;
+    max-width: 346px;
+    text-align: center;
+    font-family: 'Protest Guerrilla', sans-serif;    
+    color: white;
+    text-shadow: 0 0 15px  rgb(146, 114, 54);
+    letter-spacing: 2px;
+}
+.plato3infantil{
+    position: absolute;
+    top: 27%;
+    left: 68%;  
+    max-width: 320px;
+    text-align: center;
+    font-family: 'Protest Guerrilla', sans-serif;    
+    color: white;
+    text-shadow: 0 0 15px  rgb(146, 114, 54);
+    letter-spacing: 2px;
+
+}
+/*Parte 7*/
+.Parte7{
+    left: 0;
+    top: 20%;
+    transform: translateY(0px);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+.fotoParte7{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.textoParte7{
+    position: absolute;
+    top: 10%;
+    transform: translateX(-100%);
+    color: white;
+    left: 55%;
+    font-size:80px;
+    font-family: 'Protest Guerrilla', sans-serif;    
+    text-shadow: 0 0 20px  rgb(0, 0, 0);
+}
+/*Parte 8*/
+.Parte8{
+    left: 0;
+    top: 20%;
+    transform: translateY(0px);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+.fotoParte8{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.textoParte8{
+    position: absolute;
+    top: 18%;
+    color: white;
+    left: 51%;
+    font-size:90px;
+    font-family: 'Protest Guerrilla', sans-serif;    
+    text-shadow: 0 0 15px  rgb(0, 0, 0);
+}
+.texto2Parte8{
+    position: absolute;
+    top: 48%;
+    color: white;
+    left: 55%;
+    font-size:50px;
+    font-family: 'Protest Guerrilla', sans-serif;    
+    text-shadow: 0 0 15px  rgb(0, 0, 0);
+}
+.texto3parte8{
+    font-size: 300%;
+}
+.circulo8 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 166, 0);
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+    text-align: center;
+    flex-direction: column;
+    top: 70%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+/*Parte 9*/
+.Parte9{
+    left: 0;
+    top: 20%;
+    transform: translateY(0px);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+.fotoParte9{
+    position: absolute;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.textoParte9{
+    position: absolute;
+    top: 5%;
+    color: white;
+    left: 51%;
+    font-size:90px;
+    font-family: 'Protest Guerrilla', sans-serif;    
+    text-shadow: 0 0 15px  rgb(0, 0, 0);
+}
+.texto2Parte9{
+    position: absolute;
+    top: 48%;
+    color: white;
+    left: 55%;
+    font-size:50px;
+    font-family: 'Protest Guerrilla', sans-serif;    
+    text-shadow: 0 0 15px  rgb(0, 0, 0);
+}
+.texto3parte9{
+    font-size: 300%;
+}
+.circulo9 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 166, 0);
+    text-shadow: 0 0 15px rgb(0, 0, 0);
+    text-align: center;
+    flex-direction: column;
+    top: 70%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+.logoParte9{
+    position: absolute;
+    width: 230px;
+    height: auto;
+    top: 100px;
+    left: 16%;
+}
+/*formulario valoraciones*/
+
+.formulario {
+    width: 100%;
+    height: 400px;
+    max-width: 600px;
+    background-color: #83838357;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    color: white;
+    top: 28%;
+    left: 50%;
+  }
+  
+  .form-fields {
+    margin-bottom: 2rem;
+  }
+  
+  .field {
+    margin-bottom: 1rem;
+  }
+  
+  .field label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .field input,
+  .field textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+
+
+.estrellas {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0.3rem;
+    --stroke: rgb(255, 166, 0);
+    --fill: #ffc73a;
+    position: absolute;
+  }
+  
+  .estrellas input {
+    appearance: unset;
+  }
+  
+  .estrellas label {
+    cursor: pointer;
+  }
+  
+  .estrellas svg {
+    width: 2rem;
+    height: 2rem;
+    overflow: visible;
+    fill: transparent;
+    stroke: var(--stroke);
+    stroke-linejoin: bevel;
+    stroke-dasharray: 12;
+    animation: idle 4s linear infinite;
+    transition: stroke 0.2s, fill 0.5s;
+  }
+  
+  @keyframes idle {
+    from {
+      stroke-dashoffset: 24;
+    }
+  }
+  
+  .estrellas label:hover svg {
+    stroke: var(--fill);
+  }
+  
+  .estrellas input:checked ~ label svg {
+    transition: 0s;
+    animation: idle 4s linear infinite, yippee 0.75s backwards;
+    fill: var(--fill);
+    stroke: var(--fill);
+    stroke-opacity: 0;
+    stroke-dasharray: 0;
+    stroke-linejoin: miter;
+    stroke-width: 8px;
+  }
+  
+  @keyframes yippee {
+    0% {
+      transform: scale(1);
+      fill: var(--fill);
+      fill-opacity: 0;
+      stroke-opacity: 1;
+      stroke: var(--stroke);
+      stroke-dasharray: 10;
+      stroke-width: 1px;
+      stroke-linejoin: bevel;
+    }
+  
+    30% {
+      transform: scale(0);
+      fill: var(--fill);
+      fill-opacity: 0;
+      stroke-opacity: 1;
+      stroke: var(--stroke);
+      stroke-dasharray: 10;
+      stroke-width: 1px;
+      stroke-linejoin: bevel;
+    }
+  
+    30.1% {
+      stroke: var(--fill);
+      stroke-dasharray: 0;
+      stroke-linejoin: miter;
+      stroke-width: 8px;
+    }
+  
+    60% {
+      transform: scale(1.2);
+      fill: var(--fill);
+    }
+  }
+/*******************/  

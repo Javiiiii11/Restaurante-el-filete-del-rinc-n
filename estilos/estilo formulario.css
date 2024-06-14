@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Protest Guerrilla', sans-serif;    
+  letter-spacing: 2px;
+}
+#tituloNaranja{
+  color: rgb(255, 166, 0);
+  text-shadow: 0 0 15px  rgb(223, 183, 111);
+}
+#naranja{
+  color: rgb(255, 166, 0);
+  text-shadow: 0 0 15px  rgb(146, 114, 54);
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(../imagenes/fondo/fondo\ vacio.jpg) no-repeat; /*fondo cambiar todas las paginas menos index*/
+  background-size: cover;
+  background-position: center;
+}
+.Contenedor{
+  width: 600px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(9px);
+  color: #fff;
+  height: 600px;
+  border-radius: 12px;
+  padding: 30px 40px;
+}
+.Contenedor h1{
+  font-size: 36px;
+  text-align: center;
+  
+}
+.Contenedor .Campo{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  
+  margin: 30px 0;
+}
+.Contenedor .registro{
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+
+}
+
+.Contenedor1{
+  width: 600px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(9px);
+  color: #fff;
+  height: 400px;
+  border-radius: 12px;
+  padding: 30px 40px;
+}
+.Contenedor1 h1{
+  font-size: 36px;
+  text-align: center;
+  
+}
+.Contenedor1 .Campo{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  
+  margin: 30px 0;
+}
+.Contenedor1 .registro{
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+
+}
+
+.Campo input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+.Campo input::placeholder{
+  color: #fff;
+}
+.Campo i{
+  position: absolute;
+  right: 20px;
+  top: 30%;
+  transform: translate(-50%);
+  font-size: 20px;
+
+}
+
+.registro p a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.registro p a:hover{
+  text-decoration: underline;
+}
+.barra{
+  color:#fff;
+  background-color:#4CAF50;
+  border-radius: 12px;
+
+
+ }
+ .vacia{
+ position: relative;
+ left: -7.5%;
+   width: 595px;
+   border-radius: 12px;
+
+  transform: translateY(-70px);
+  color:#000;
+  background-color:#f1f1f1;
+
+ }
+
+ 

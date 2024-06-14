@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../imagenes/fondo/fondo\ vacio.jpg);
+    background-size: cover;
+    font-family: 'Protest Guerrilla', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+}
+.contenedorPrincipio{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../imagenes/nosotros/un-restaurante-alto-de-gama-por-el-exterior-con-el-upscaled.jpg');
+    height: 700px;
+    background-position: center;  
+    background-size: cover; 
+    border-bottom: 10px solid orange;
+    
+}
+
+.Titulo{
+   font-weight: bold;
+   font-size: 50px;
+}
+.contendor2{
+    display: flex;
+    height: 100vh;
+} 
+.izquierda, .derecha{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.izquierda{
+    height: 500px;
+    float: left;
+    width: 50%;
+}
+.derecha{
+    float: right;
+    width: 50%;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+}
+.derecha p{
+   font-size: 20px;
+   padding-left: 20%;
+   padding-right: 20%;
+}
+.derecha2{
+
+
+    height: 500px;
+    float: right;
+    width: 50%;
+    
+}
+.foto1{
+    background-image: url('../imagenes/nosotros/Chef.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.foto2{
+    background-image: url('../imagenes/blog/foto\ blog\ 5.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.foto3{
+    background-image: url('../imagenes/blog/foto\ blog\ 6.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.foto4{
+    background-image: url('../imagenes/blog/foto\ blog\ 7.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.izquierda2{
+    float: left;
+    width: 50%;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+}
+.izquierda2 p{
+   font-size: 20px;
+   padding-left: 20%;
+}
+.izquierda2, .derecha2{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin-top: 10px;
+}
+nav ul li:last-child{
+    margin-top: 5px;
+}

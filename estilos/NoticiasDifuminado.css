@@ -1,0 +1,170 @@
+html{
+    overflow-y: hidden;
+}
+.noticias{
+    background-image: url(../imagenes/Difuminar/Noticias.png);
+    background-size: cover;
+}
+.blog{
+    background-image: url(../imagenes/Difuminar/blog.png);
+    background-size: cover;
+}
+.carta{
+    background-image: url(../imagenes/Difuminar/carta.png);
+    background-size: cover;
+}
+.nosotros{
+    background-image: url(../imagenes/Difuminar/Nosotros.png);
+    background-size: cover;
+}
+.index{
+    background-image: url(../imagenes/Difuminar/index.jpg.png);
+    background-size: cover;
+}
+.cursos{
+    background-image: url(../imagenes/Difuminar/Cursos.png);
+    background-size: cover;
+}
+.menu{
+    background-image: url(../imagenes/Difuminar/menu.png);
+    background-size: cover;
+}
+#cubos{
+    margin-top: 100px;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: inherit;
+    display: block;
+    word-wrap: break-word;
+    font-family: "susy";
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 1.5;
+}
+#cubo1{
+    margin-left:20px;
+    width: 28.5%;
+    box-sizing: border-box;
+    display: block;
+    background-image: url(../imagenes/fondo/plato\ 1\ carne.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    box-sizing: inherit;
+    padding-left: 0;
+    height: 300px;
+    float: left;
+}
+
+#cubo2{
+    margin-left:53px;
+    width: 28.5%;
+    box-sizing: border-box;
+    display: block;
+    background-image: url(../imagenes/madrid.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    box-sizing: inherit;
+    padding-left: 0;
+    height: 300px;
+    float: left;
+}
+
+#cubo3{
+    margin-left:53px;
+    width: 28.5%;
+    box-sizing: border-box;
+    display: block;
+    background: url(../imagenes/Difuminar/Chuleta.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    box-sizing: inherit;
+    padding-left: 0;
+    height: 300px;
+    float: left;
+}
+
+.fondocubo{
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    display: block;
+    color: #222222;
+    text-align: center;
+    font-size:18px;
+    font-weight: .1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 16px;
+    letter-spacing: .1em;
+    font-family: peiko;
+ 
+}
+.centrar{
+    margin: auto;
+    margin-top: 115px;
+    line-height: 20px;
+}
+
+#centrar1{
+    margin: auto;
+    margin-top: 105px;
+    line-height: 20px;
+}
+
+#centrar2{
+    margin: auto;
+    line-height: 20px;
+}
+
+.fondocubo:hover{
+    background-color: #0e1d2d;
+    opacity: .7;
+    color: white;
+}
+.tituloDerecha{
+    margin-top: 123px; 
+      font-family: 'Protest Guerrilla', 
+      sans-serif;  ;
+        color: rgb(240, 157, 3);
+
+ text-shadow: 0 0 15px rgb(0, 0, 0);
+ font-size: 40px;opacity: 100%;
+ margin-left: 250px;
+ position: absolute;
+}
+.infantil{
+    margin-top: 123px; 
+      font-family: 'Protest Guerrilla', 
+      sans-serif;  ;
+        color: rgb(240, 157, 3);
+
+ text-shadow: 0 0 15px rgb(0, 0, 0);
+ font-size: 40px;opacity: 100%;
+ margin-left: 270px;
+ position: absolute;
+}
+.carne{
+    margin-top: 123px;   font-family: 'Protest Guerrilla', sans-serif;  ;  color: rgb(240, 157, 3);
+    text-shadow: 0 0 15px rgb(0, 0, 0);font-size: 40px;opacity: 100%;left: 7%;position: absolute;
+}
+.vegetariano
+{
+margin-top: 123px;   font-family: 'Protest Guerrilla', sans-serif;  ;  color: rgb(240, 157, 3);
+                text-shadow: 0 0 15px rgb(0, 0, 0);font-size: 40px;opacity: 100%;left: 3%;position: absolute;
+}
+

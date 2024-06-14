@@ -1,0 +1,196 @@
+/*barra superior*/
+#tituloNaranja{
+    color: rgb(255, 166, 0);
+    text-shadow: 0 0 15px  rgb(223, 183, 111);
+}
+#naranja{
+    color: rgb(255, 166, 0);
+    text-shadow: 0 0 15px rgb(255, 166, 0);
+}
+#negro{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 15px rgb(255, 136, 0);
+}
+#negro2{
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 15px rgb(255, 136, 0);
+}
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00000093;
+    height: 80px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 10;
+    width: 100vw;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li {
+    float: right;
+    transform: translateX(-90px);
+}
+  
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 19px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transform: translateY(px);
+}
+nav li a:hover {
+    color: rgb(255, 166, 0);
+    text-shadow: 0 0 20px  rgb(255, 255, 255);
+
+}
+#titulo{
+    transform: translateX(-50%);
+    top: 0;
+    height: 80px;
+    font-size:30px;
+}
+#titulo:hover {
+    text-shadow: 0 0 15px  rgb(255, 166, 0);
+}
+/*Footer*/
+footer{
+    background-color: rgb(88, 88, 88);
+    height: 320px;
+    width:  100%;
+    position: relative;
+    bottom: 0;
+    display: block;
+}
+.mapa{
+    top:  60px;
+    left: 40%;
+    position: absolute;
+}
+.programadores{
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    color: black;
+    letter-spacing: 2px;
+}
+.horario{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    background-color: rgba(68, 68, 68, 0.712);
+    width: 25%;
+    height: 63%;
+    border-radius: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.horario table{
+    width: 100%;
+    border-collapse: collapse;
+    border-color: rgba(0, 0, 255, 0);
+    border-style: groove;
+}
+.horario th, .horario td{
+    padding: 10px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: none;
+    
+}
+.horario th{
+    background-color: #f2f2f23b;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.redesSociales{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    width: 20%;
+    height: 50%;
+    display: flex; 
+    justify-content: space-between
+}
+.redesSociales img{
+    width: 50px;
+    height: 50px;
+}
+.redesSociales .f2{
+    z-index: 20;
+}
+.redesSociales .i2{
+    z-index: 20;
+}
+.redesSociales .t2{
+    z-index: 20;
+}
+.redesSociales .y2{
+    z-index: 20;
+}
+.redesSociales .f{
+    z-index: 0;
+    position: absolute;
+    transform: translateX(16px);
+}
+.redesSociales .i{
+    z-index: 0;
+    position: absolute;
+    transform: translateX(15px);
+}
+.redesSociales .t{
+    z-index: 0;
+    position: absolute;
+    transform: translateX(16px);
+}
+.redesSociales .y{
+    z-index: 0;
+    position: absolute;
+    transform: translateX(16px);
+}
+.redesSociales .f:hover{
+    opacity: 0%;
+    transition: 0.3s;
+}
+.redesSociales .f2:hover{
+    opacity: 100%;
+}
+.redesSociales .i:hover{
+    opacity: 0%;
+    transition: 0.3s;
+}
+.redesSociales .i2:hover{
+    opacity: 100%;
+}
+.redesSociales .t:hover{
+    opacity: 0%;
+    transition: 0.3s;
+}
+.redesSociales .t2:hover{
+    opacity: 100%;
+}
+.redesSociales .y:hover{
+    opacity: 0%;
+    transition: 0.3s;
+}
+.redesSociales .y2:hover{
+    opacity: 100%;
+}
+.contenedorPrimario{
+    width: 100%;
+    display: grid;
+    background-image: url(../imagenes/fondo/fondo\ vacio\ doble.png);
+    background-size: cover;
+
+  }
+/************************************************************/
